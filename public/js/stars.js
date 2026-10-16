@@ -22,7 +22,7 @@
     out.textContent = format(n);
     // The visible count is inside the labelled link, so the label has to carry
     // it too or screen readers announce the badge without its number.
-    link.setAttribute('aria-label', 'binthere on GitHub — ' + n + (n === 1 ? ' star' : ' stars'));
+    link.setAttribute('aria-label', '在 GitHub 上查看 binthere — ' + n + ' 个星标');
     wrap.hidden = false;
   };
 

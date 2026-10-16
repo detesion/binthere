@@ -62,7 +62,7 @@ export async function copyText(text) {
 }
 
 /** Flash a copy button into its "copied" state briefly. */
-export function flashCopied(btn, label = 'copied') {
+export function flashCopied(btn, label = '已复制') {
   if (!btn) return;
   const original = btn.dataset.label || btn.textContent;
   btn.dataset.label = original;
